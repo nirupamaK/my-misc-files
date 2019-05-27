@@ -13,10 +13,6 @@ def lambda_handler(event, context):
     bucket_name = os.environ['bucket_name']
     DBtable = os.environ['DBtable']
     current_region = os.environ['current_region']
-    #ACCESS_KEY = 'AKIAQE7VSYOXAM4WZJPE'
-    #SECRET_KEY = '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'
-    #bucket_name = '010715579310-img-bucket' 
-    #current_region = 'ap-south-1' 
     tmp_file_name = '/tmp/' + file_name
     s3_session = session = boto3.session.Session(aws_access_key_id=ACCESS_KEY,
               aws_secret_access_key=SECRET_KEY)
