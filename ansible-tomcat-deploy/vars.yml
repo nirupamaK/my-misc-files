@@ -1,0 +1,8 @@
+tomcat_server: ServerA
+tomcat_major: tomcat-8
+tomcat_version: 8.0.9
+tomcat_serverport: "8005"
+tomcat_webui: "8080"
+tomcat_AJP: "8009"
+tomcat_admin: "admin"
+admin_password: "secret123"
